@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="ASource">Source :</string>
+    <string name="bookig_id">Booking ID :</string>
+    <string name="bookind_details">Booking Details</string>
+    <string name="cancel">CANCEL</string>
+    <string name="cancel_application">Are you sure you want exit?</string>
+    <string name="customer_details">\"Customer Details\"</string>
+    <string name="destination_address">Destination Address</string>
+    <string name="location_pin">locationPin</string>
+    <string name="map">Map</string>
+    <string name="mobile_no">Mobile No :</string>
+    <string name="ok">OK</string>
+    <string name="pikup_time">Pickup Time</string>
+    <string name="source_address">Source Address</string>
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

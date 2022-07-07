@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">City Link...</string>
+    <string name="well_come">"Well come to city link..."</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="bookind_details">Booking Details</string>
+    <string name="source_address">Source Address</string>
+    <string name="destination_address">Destination Address</string>
+    <string name="customer_name">Customer Name : </string>
+    <string name="mobile_no">Mobile No : </string>
+    <string name="email">Email ID : </string>
+    <string name="bookig_id">Booking ID : </string>
+    <string name="ASource">Source : </string>
+    <string name="status">Status : </string>
+    <string name="bookig_time">Booking Time : </string>
+    <string name="pikup_time">Pickup Time : </string>
+    <string name="source_loctaion">Source Location : </string>
+    <string name="address">Adress : </string>
+    <string name="location_pin">locationPin</string>
+    <string name="destination_location">Destination Location : </string>
+    <string name="cancel_application">Are you sure you want exit?</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="city_link_title">CITY LINK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map">Map</string>
+</resources>

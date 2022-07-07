@@ -1,0 +1,261 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="bookingModel"
+            type="com.citylink.model.BookingModel"/>
+
+    </data>
+
+
+    <ScrollView
+        android:id="@+id/home_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight=".1"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_gradient"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/bookind_details"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:layout_weight=".225"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/customer_details"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/customeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@{`Customer Name : ` + bookingModel.customer.customerFullName}"/>
+
+                <TextView
+                    android:id="@+id/mobNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@{`Mobile No : ` + bookingModel.customer.mobile}"/>
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@{`Email ID : ` + bookingModel.customer.email}"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_weight=".225"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="center"
+                            android:text="@string/bookind_details"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/bookingId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Booking ID : ` + bookingModel.bookingId}"/>
+
+                        <TextView
+                            android:id="@+id/sourceAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Source : MobileApp`}"/>
+
+                        <TextView
+                            android:id="@+id/bookingStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Status : ` + bookingModel.status}"/>
+
+                        <TextView
+                            android:id="@+id/bookingTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Booking Time : ` + bookingModel.bookingTime}"/>
+
+                        <TextView
+                            android:id="@+id/pickUpTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="@{`Pickup Time : ` + bookingModel.pickupTime}"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_weight=".225"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="start"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="center"
+                            android:text="@string/source_address"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/sourceLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Source Location : `+ bookingModel.ASource.sourceAddress.sourceLocation}"/>
+
+                        <TextView
+                            android:id="@+id/sourceAddressName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Adress : `+ bookingModel.ASource.sourceAddress.sourceAddress}"/>
+
+                        <ImageView
+                            android:id="@+id/sourceAddressPin"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@string/location_pin"
+                            android:gravity="bottom"
+                            android:src="@drawable/location_pin"
+                            android:textAllCaps="false"
+                            app:cardCornerRadius="5dp"
+                            android:clickable="true"
+                            android:onClick="onClick"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_weight=".225"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="center"
+                            android:text="@string/destination_address"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/destinationLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Destination Location : `+ bookingModel.destination.destinationAdressName}"/>
+
+                        <TextView
+                            android:id="@+id/destinationAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="@{`Adress : `+ bookingModel.destination.destinationAdress.destinationAddress}"/>
+
+                        <ImageView
+                            android:id="@+id/destinationAddressPin"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:contentDescription="@string/location_pin"
+                            android:gravity="bottom"
+                            android:src="@drawable/location_pin"
+                            android:textAllCaps="false"
+                            android:layout_marginVertical="10dp"
+                            app:cardCornerRadius="2dp"
+                            />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+</layout>

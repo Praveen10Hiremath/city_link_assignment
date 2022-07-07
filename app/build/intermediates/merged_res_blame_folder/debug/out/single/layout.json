@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-28:\\layout\\fragment_map_view.xml",
+        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-31:\\layout\\fragment_map_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-28:\\layout\\fragment_booking_details.xml",
+        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-31:\\layout\\fragment_booking_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-28:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-31:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.example.view.app-mergeDebugResources-28:/layout/fragment_map_view.xml",
+        "source": "com.example.view.app-main-31:/layout/fragment_map_view.xml"
+    }
+]
