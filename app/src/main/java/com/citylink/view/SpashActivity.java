@@ -13,7 +13,6 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.citylink.view.fragments.BookingDetailsFragment;
-import com.citylink.view.fragments.MapViewFragment;
 import com.citylink.viewmodel.SplashViewModel;
 import com.example.view.R;
 
@@ -60,24 +59,16 @@ public class SpashActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-            Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.fragment_container);
-            if (fragment instanceof MapViewFragment) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BookingDetailsFragment()).commit();
-            }else {
-                    AlertDialog.Builder builder = new android.app.AlertDialog.Builder(this);
-                    builder.setTitle(getString(R.string.city_link_title));
-                    builder.setMessage(this.getResources().getString(R.string.cancel_application))
-                            .setCancelable(false)
-                            .setPositiveButton(getResources().getString(R.string.ok), (dialog, id) -> {
-                                finishAffinity();
-                            })
-                            .setNegativeButton(getResources().getString(R.string.cancel), (dialog, id) -> dialog.cancel());
-                    AlertDialog alert = builder.create();
-                    alert.show();
-            }
-        }
-        return super.onKeyDown(keyCode, event);
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new android.app.AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.city_link_title));
+        builder.setMessage(this.getResources().getString(R.string.cancel_application))
+                .setCancelable(false)
+                .setPositiveButton(getResources().getString(R.string.ok), (dialog, id) -> {
+                    finishAffinity();
+                })
+                .setNegativeButton(getResources().getString(R.string.cancel), (dialog, id) -> dialog.cancel());
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 }

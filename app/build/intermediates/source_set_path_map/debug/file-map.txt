@@ -1,32 +1,33 @@
-com.example.view.app-core-1.7.0-0 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\res
-com.example.view.app-fragment-1.3.6-1 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\29bdfe4f1619e457b1b22ec172982bb4\transformed\fragment-1.3.6\res
-com.example.view.app-annotation-experimental-1.1.0-2 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\res
-com.example.view.app-transition-1.2.0-3 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\44f59b81c87b69ad5a2c3b803c83780d\transformed\transition-1.2.0\res
-com.example.view.app-databinding-runtime-7.2.1-4 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\4dbda0adc51ca75b28ba552ae995ffb7\transformed\databinding-runtime-7.2.1\res
-com.example.view.app-lifecycle-runtime-2.4.0-5 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\4ea78e3a5300ae57948a4528ff114bdc\transformed\lifecycle-runtime-2.4.0\res
-com.example.view.app-viewpager2-1.0.0-6 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\558a376c9715ce970c82065b28321b39\transformed\viewpager2-1.0.0\res
-com.example.view.app-cardview-1.0.0-7 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\7c7a8c29ecce42e20d903e3a51f8df85\transformed\cardview-1.0.0\res
-com.example.view.app-databinding-adapters-7.2.1-8 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\828f00dceb594239b7fd3d9682abe18d\transformed\databinding-adapters-7.2.1\res
-com.example.view.app-savedstate-1.1.0-9 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\875969fcab760a2bfd8e26232a38f178\transformed\savedstate-1.1.0\res
-com.example.view.app-coordinatorlayout-1.1.0-10 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\8a6303413022a75475e0d43fea7dc5ec\transformed\coordinatorlayout-1.1.0\res
-com.example.view.app-constraintlayout-2.1.4-11 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\8ad4b0562467dfb6f3cd10869bd03e3f\transformed\constraintlayout-2.1.4\res
-com.example.view.app-lifecycle-process-2.4.0-12 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\res
-com.example.view.app-emoji2-1.0.0-13 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\res
-com.example.view.app-startup-runtime-1.0.0-14 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\a35ffcfc54aa0bc9044e6dad0d1c1a4b\transformed\startup-runtime-1.0.0\res
-com.example.view.app-play-services-basement-18.0.0-15 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\b47fa07eeab5eb3a3e29169c35af0d8e\transformed\play-services-basement-18.0.0\res
-com.example.view.app-material-1.6.1-16 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\bfec8dfcaf6c34e166a516bbd7a3f400\transformed\material-1.6.1\res
-com.example.view.app-emoji2-views-helper-1.0.0-17 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\c954256298e03fa9e55aff6bfaab3a2f\transformed\emoji2-views-helper-1.0.0\res
-com.example.view.app-appcompat-resources-1.4.2-18 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\ce21111078a168e50a2a640a6bb0ae35\transformed\appcompat-resources-1.4.2\res
-com.example.view.app-recyclerview-1.1.0-19 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\d55f9b1c6cb2370e24af439e7aff662a\transformed\recyclerview-1.1.0\res
-com.example.view.app-lifecycle-viewmodel-2.3.1-20 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\d6364469d2dca85a8f85e8beeb73ccf4\transformed\lifecycle-viewmodel-2.3.1\res
-com.example.view.app-drawerlayout-1.1.1-21 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\edcdf00559453ac5f7364b461524ff25\transformed\drawerlayout-1.1.1\res
-com.example.view.app-appcompat-1.4.2-22 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\f053ca72a4906620f9d7f529c412475e\transformed\appcompat-1.4.2\res
-com.example.view.app-play-services-base-18.0.1-23 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\f0ff57dd6ae16d6002dfd7bacfd458a4\transformed\play-services-base-18.0.1\res
-com.example.view.app-pngs-24 D:\CITY LINK PROJECT\app\build\generated\res\pngs\debug
-com.example.view.app-resValues-25 D:\CITY LINK PROJECT\app\build\generated\res\resValues\debug
-com.example.view.app-rs-26 D:\CITY LINK PROJECT\app\build\generated\res\rs\debug
-com.example.view.app-packageDebugResources-27 D:\CITY LINK PROJECT\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.view.app-packageDebugResources-28 D:\CITY LINK PROJECT\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.view.app-merged_res-29 D:\CITY LINK PROJECT\app\build\intermediates\merged_res\debug
-com.example.view.app-debug-30 D:\CITY LINK PROJECT\app\src\debug\res
-com.example.view.app-main-31 D:\CITY LINK PROJECT\app\src\main\res
+com.example.view.app-appcompat-resources-1.4.2-0 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\081b1babcc859617946c7e1fba848d5c\transformed\appcompat-resources-1.4.2\res
+com.example.view.app-lifecycle-viewmodel-2.3.1-1 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\0bbf93eaee9f2c40c1a90cd8e544c7b4\transformed\lifecycle-viewmodel-2.3.1\res
+com.example.view.app-play-services-maps-18.0.2-2 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\2268d78e8d973ac67ebb2d1353460d6a\transformed\play-services-maps-18.0.2\res
+com.example.view.app-drawerlayout-1.1.1-3 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\333ec0386f98b3aea3b125d180989ca1\transformed\drawerlayout-1.1.1\res
+com.example.view.app-play-services-base-18.0.1-4 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\3975f4efeb239c6b794f70633421a69e\transformed\play-services-base-18.0.1\res
+com.example.view.app-databinding-adapters-7.2.1-5 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\3d113e509f9ee956dc7c32d99e7172be\transformed\databinding-adapters-7.2.1\res
+com.example.view.app-material-1.6.1-6 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\3d2c24c05715ce065c68b93a38fc5324\transformed\material-1.6.1\res
+com.example.view.app-fragment-1.3.6-7 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\4993aa5a657356a5e0a25a6af6c04e2d\transformed\fragment-1.3.6\res
+com.example.view.app-viewpager2-1.0.0-8 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\4a85ab9a1b8b3a49835d40ef09d56a22\transformed\viewpager2-1.0.0\res
+com.example.view.app-lifecycle-process-2.4.0-9 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\5e3596ba3b7a4feea7dfecbf118e37c4\transformed\lifecycle-process-2.4.0\res
+com.example.view.app-savedstate-1.1.0-10 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\68e98242ba3fe947a2713295911fd4dd\transformed\savedstate-1.1.0\res
+com.example.view.app-startup-runtime-1.0.0-11 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\73889dc01f7b7964b318618d2b244715\transformed\startup-runtime-1.0.0\res
+com.example.view.app-coordinatorlayout-1.1.0-12 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\802d95e687520a3be47817d74122ed45\transformed\coordinatorlayout-1.1.0\res
+com.example.view.app-recyclerview-1.1.0-13 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\879e57b7201ccd0313482b09f5d07b3c\transformed\recyclerview-1.1.0\res
+com.example.view.app-annotation-experimental-1.1.0-14 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\91a9888e3e5fe3d4e2f13b8056c1978c\transformed\annotation-experimental-1.1.0\res
+com.example.view.app-constraintlayout-2.1.4-15 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\aca5e47ff6211c87d4e23baae2577c76\transformed\constraintlayout-2.1.4\res
+com.example.view.app-cardview-1.0.0-16 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\aed0f79a1bf818798929ce9ad0785c02\transformed\cardview-1.0.0\res
+com.example.view.app-emoji2-1.0.0-17 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\ca9ba3e36544e6688eaee20cda71d1c5\transformed\emoji2-1.0.0\res
+com.example.view.app-appcompat-1.4.2-18 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\d6a48e1ca39bdfacd5e66d372fa35efd\transformed\appcompat-1.4.2\res
+com.example.view.app-databinding-runtime-7.2.1-19 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\f091fd38b966c878a7827ff5b7c9acf7\transformed\databinding-runtime-7.2.1\res
+com.example.view.app-play-services-basement-18.0.0-20 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\f93e2455364a44f49434e640fb24e44b\transformed\play-services-basement-18.0.0\res
+com.example.view.app-core-1.7.0-21 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\fa86d4c6beb78585879744119d2d07a8\transformed\core-1.7.0\res
+com.example.view.app-lifecycle-runtime-2.4.0-22 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\fcc69e46acc7f8642e277f6ec4c58b93\transformed\lifecycle-runtime-2.4.0\res
+com.example.view.app-emoji2-views-helper-1.0.0-23 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\ff33440d230f690266688f462c1434e5\transformed\emoji2-views-helper-1.0.0\res
+com.example.view.app-transition-1.2.0-24 C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\ff6a40b77b272933436c850bdd8977b9\transformed\transition-1.2.0\res
+com.example.view.app-pngs-25 D:\CITY LINK PROJECT\app\build\generated\res\pngs\debug
+com.example.view.app-resValues-26 D:\CITY LINK PROJECT\app\build\generated\res\resValues\debug
+com.example.view.app-rs-27 D:\CITY LINK PROJECT\app\build\generated\res\rs\debug
+com.example.view.app-packageDebugResources-28 D:\CITY LINK PROJECT\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.view.app-packageDebugResources-29 D:\CITY LINK PROJECT\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.view.app-merged_res-30 D:\CITY LINK PROJECT\app\build\intermediates\merged_res\debug
+com.example.view.app-debug-31 D:\CITY LINK PROJECT\app\src\debug\res
+com.example.view.app-main-32 D:\CITY LINK PROJECT\app\src\main\res

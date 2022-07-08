@@ -74,16 +74,10 @@ public class SplashViewModel extends AndroidViewModel{
         call.enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject>  call, Response<JsonObject> response) {
-                Gson gson =new Gson();
-               BookingModel fromJson= gson.fromJson(response.body(), BookingModel.class);
-//               BookingModel bookingModel = new BookingModel();
-//                bookingModel.setContext(fromJson.getContext());
-
+               BookingModel fromJson= new Gson().fromJson(response.body(), BookingModel.class);
                 insert(fromJson);
                 progressbarObservable.setValue(false);
-
             }
-
 
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
@@ -98,7 +92,4 @@ public class SplashViewModel extends AndroidViewModel{
         return progressbarObservable;
     }
 
-    public void onClickItem(int row, int col){
-
-    }
 }

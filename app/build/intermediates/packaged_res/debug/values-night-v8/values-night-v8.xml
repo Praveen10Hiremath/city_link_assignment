@@ -13,6 +13,7 @@
     <string name="ok">OK</string>
     <string name="pikup_time">Pickup Time</string>
     <string name="source_address">Source Address</string>
+    <string name="unable_fetch_data">Unable to load data, Something went wrong...</string>
     <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>

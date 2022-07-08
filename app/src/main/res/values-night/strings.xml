@@ -13,4 +13,5 @@
     <string name="cancel">CANCEL</string>
     <string name="ok">OK</string>
     <string name="map">Map</string>
+    <string name="unable_fetch_data">Unable to load data, Something went wrong...</string>
 </resources>
