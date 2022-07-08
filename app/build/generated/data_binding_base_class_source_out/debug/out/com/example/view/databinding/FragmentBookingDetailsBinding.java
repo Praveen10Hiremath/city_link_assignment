@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -49,6 +50,9 @@ public abstract class FragmentBookingDetailsBinding extends ViewDataBinding {
   public final TextView mobNo;
 
   @NonNull
+  public final LinearLayout noData;
+
+  @NonNull
   public final TextView pickUpTime;
 
   @NonNull
@@ -70,7 +74,7 @@ public abstract class FragmentBookingDetailsBinding extends ViewDataBinding {
       int _localFieldCount, TextView bookingId, TextView bookingStatus, TextView bookingTime,
       TextView customeName, TextView destinationAddress, ImageView destinationAddressPin,
       TextView destinationLocation, TextView email, ScrollView homeScrollView, TextView mobNo,
-      TextView pickUpTime, TextView sourceAddress, TextView sourceAddressName,
+      LinearLayout noData, TextView pickUpTime, TextView sourceAddress, TextView sourceAddressName,
       ImageView sourceAddressPin, TextView sourceLocation) {
     super(_bindingComponent, _root, _localFieldCount);
     this.bookingId = bookingId;
@@ -83,6 +87,7 @@ public abstract class FragmentBookingDetailsBinding extends ViewDataBinding {
     this.email = email;
     this.homeScrollView = homeScrollView;
     this.mobNo = mobNo;
+    this.noData = noData;
     this.pickUpTime = pickUpTime;
     this.sourceAddress = sourceAddress;
     this.sourceAddressName = sourceAddressName;

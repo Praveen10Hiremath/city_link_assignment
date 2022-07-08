@@ -81,9 +81,9 @@ public class SplashViewModel extends AndroidViewModel{
 
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
-                progressbarObservable.setValue(false);
                 Log.i(TAG,t.getLocalizedMessage());
                 Toast.makeText(getApplication().getApplicationContext(), "An error has occured", Toast.LENGTH_LONG).show();
+                progressbarObservable.setValue(false);
             }
         });
     }

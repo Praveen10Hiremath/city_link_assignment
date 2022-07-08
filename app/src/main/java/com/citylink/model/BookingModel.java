@@ -94,7 +94,9 @@ public class BookingModel {
     }
 
     public String getBookingTime() {
-        return bookingTime.replace(".000", " ").replace("T", " ");
+
+
+        return bookingTime.replace("T", " ").substring(0, 19);
     }
 
     public void setBookingTime(String bookingTime) {
@@ -102,7 +104,7 @@ public class BookingModel {
     }
 
     public String getPickupTime() {
-        return pickupTime.replace(".000", " ").replace("T", " ");
+        return pickupTime.replace("T", " ").substring(0, 19);
     }
 
     public void setPickupTime(String pickupTime) {

@@ -2,14 +2,19 @@ package com.citylink.view;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.Window;
+import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.citylink.view.fragments.BookingDetailsFragment;
@@ -29,8 +34,10 @@ public class SpashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         DataBindingUtil.setContentView(this, R.layout.activity_splash);
-        splashViewModel = ViewModelProviders.of(this).get(SplashViewModel.class);
+        //splashViewModel = ViewModelProviders.of(this).get(SplashViewModel.class);
+        splashViewModel = new ViewModelProvider(this).get(SplashViewModel.class);
         showProgress();
+        splashViewModel.getAllBookingDetals();
             timerTask = new TimerTask() {
                 @Override
                 public void run() {
@@ -38,8 +45,7 @@ public class SpashActivity extends AppCompatActivity {
                 }
 
             };
-            new Timer().schedule(timerTask, 1800);
-        splashViewModel.getAllBookingDetals();
+            new Timer().schedule(timerTask, 2000);
     }
 
     private void showProgress() {
@@ -48,6 +54,9 @@ public class SpashActivity extends AppCompatActivity {
             @Override
             public void onChanged(final Boolean progressObserve) {
                 if (progressObserve) {
+                    progressBar.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+                    progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+                    progressBar.setCancelable(false);
                     progressBar.setIndeterminate(true);
                     progressBar.setMessage(getString(R.string.well_come));
                     progressBar.show();

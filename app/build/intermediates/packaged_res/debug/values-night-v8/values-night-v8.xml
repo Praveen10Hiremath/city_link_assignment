@@ -5,11 +5,12 @@
     <string name="bookind_details">Booking Details</string>
     <string name="cancel">CANCEL</string>
     <string name="cancel_application">Are you sure you want exit?</string>
-    <string name="customer_details">\"Customer Details\"</string>
+    <string name="customer_details">Customer Details</string>
     <string name="destination_address">Destination Address</string>
     <string name="location_pin">locationPin</string>
     <string name="map">Map</string>
     <string name="mobile_no">Mobile No :</string>
+    <string name="no_data">No data available</string>
     <string name="ok">OK</string>
     <string name="pikup_time">Pickup Time</string>
     <string name="source_address">Source Address</string>

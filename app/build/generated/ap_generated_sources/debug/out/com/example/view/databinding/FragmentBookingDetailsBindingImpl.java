@@ -14,17 +14,21 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.sourceAddressPin, 13);
-        sViewsWithIds.put(R.id.destinationAddressPin, 14);
+        sViewsWithIds.put(R.id.home_scroll_view, 13);
+        sViewsWithIds.put(R.id.sourceAddressPin, 14);
+        sViewsWithIds.put(R.id.destinationAddressPin, 15);
+        sViewsWithIds.put(R.id.noData, 16);
     }
     // views
+    @NonNull
+    private final android.widget.LinearLayout mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public FragmentBookingDetailsBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 17, sIncludes, sViewsWithIds));
     }
     private FragmentBookingDetailsBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -33,15 +37,16 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
             , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[1]
             , (android.widget.TextView) bindings[12]
-            , (android.widget.ImageView) bindings[14]
+            , (android.widget.ImageView) bindings[15]
             , (android.widget.TextView) bindings[11]
             , (android.widget.TextView) bindings[3]
-            , (android.widget.ScrollView) bindings[0]
+            , (android.widget.ScrollView) bindings[13]
             , (android.widget.TextView) bindings[2]
+            , (android.widget.LinearLayout) bindings[16]
             , (android.widget.TextView) bindings[8]
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[10]
-            , (android.widget.ImageView) bindings[13]
+            , (android.widget.ImageView) bindings[14]
             , (android.widget.TextView) bindings[9]
             );
         this.bookingId.setTag(null);
@@ -51,7 +56,8 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
         this.destinationAddress.setTag(null);
         this.destinationLocation.setTag(null);
         this.email.setTag(null);
-        this.homeScrollView.setTag(null);
+        this.mboundView0 = (android.widget.LinearLayout) bindings[0];
+        this.mboundView0.setTag(null);
         this.mobNo.setTag(null);
         this.pickUpTime.setTag(null);
         this.sourceAddress.setTag(null);
@@ -116,27 +122,33 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
             mDirtyFlags = 0;
         }
         java.lang.String javaLangStringStatusBookingModelStatus = null;
+        java.lang.String bookingModelASourceSourecAdressName = null;
+        java.lang.String bookingModelDestinationDestinationAdressDestinationLocation = null;
         java.lang.String bookingModelCustomerMobile = null;
         java.lang.String javaLangStringMobileNoBookingModelCustomerMobile = null;
+        java.lang.String javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangString = null;
         java.lang.String bookingModelCustomerCustomerFullName = null;
         com.citylink.model.DestinationAdress bookingModelDestinationDestinationAdress = null;
+        java.lang.String javaLangStringDestinationLocationBookingModelDestinationDestinationAdressDestinationLocation = null;
+        java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressName = null;
         java.lang.String bookingModelBookingId = null;
         java.lang.String javaLangStringBookingIDBookingModelBookingId = null;
         com.citylink.model.ASource bookingModelASource = null;
         com.citylink.model.BookingModel bookingModel = mBookingModel;
-        java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressDestinationAddress = null;
         java.lang.String bookingModelBookingTime = null;
         java.lang.String bookingModelPickupTime = null;
         java.lang.String bookingModelASourceSourceAddressSourceLocation = null;
+        java.lang.String javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangStringBookingModelASourceSourceAddressSourceAddress = null;
+        java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangStringBookingModelDestinationDestinationAdressDestinationAddress = null;
         com.citylink.model.Customer bookingModelCustomer = null;
         java.lang.String javaLangStringEmailIDBookingModelCustomerEmail = null;
+        java.lang.String javaLangStringAdressBookingModelASourceSourecAdressName = null;
         java.lang.String bookingModelCustomerEmail = null;
+        java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangString = null;
         java.lang.String bookingModelDestinationDestinationAdressName = null;
         com.citylink.model.Address bookingModelASourceSourceAddress = null;
-        java.lang.String javaLangStringAdressBookingModelASourceSourceAddressSourceAddress = null;
         java.lang.String javaLangStringSourceLocationBookingModelASourceSourceAddressSourceLocation = null;
         java.lang.String bookingModelASourceSourceAddressSourceAddress = null;
-        java.lang.String javaLangStringDestinationLocationBookingModelDestinationDestinationAdressName = null;
         java.lang.String javaLangStringPickupTimeBookingModelPickupTime = null;
         com.citylink.model.Destination bookingModelDestination = null;
         java.lang.String javaLangStringCustomerNameBookingModelCustomerCustomerFullName = null;
@@ -175,6 +187,8 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
                 // read ("Status : ") + (bookingModel.status)
                 javaLangStringStatusBookingModelStatus = ("Status : ") + (bookingModelStatus);
                 if (bookingModelASource != null) {
+                    // read bookingModel.ASource.sourecAdressName
+                    bookingModelASourceSourecAdressName = bookingModelASource.getSourecAdressName();
                     // read bookingModel.ASource.sourceAddress
                     bookingModelASourceSourceAddress = bookingModelASource.getSourceAddress();
                 }
@@ -194,32 +208,44 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
                 }
 
 
-                if (bookingModelASourceSourceAddress != null) {
-                    // read bookingModel.ASource.sourceAddress.sourceLocation
-                    bookingModelASourceSourceAddressSourceLocation = bookingModelASourceSourceAddress.getSourceLocation();
-                    // read bookingModel.ASource.sourceAddress.sourceAddress
-                    bookingModelASourceSourceAddressSourceAddress = bookingModelASourceSourceAddress.getSourceAddress();
-                }
+                // read ("Adress : ") + (bookingModel.ASource.sourecAdressName)
+                javaLangStringAdressBookingModelASourceSourecAdressName = ("Adress : ") + (bookingModelASourceSourecAdressName);
                 // read ("Mobile No : ") + (bookingModel.customer.mobile)
                 javaLangStringMobileNoBookingModelCustomerMobile = ("Mobile No : ") + (bookingModelCustomerMobile);
                 // read ("Customer Name : ") + (bookingModel.customer.customerFullName)
                 javaLangStringCustomerNameBookingModelCustomerCustomerFullName = ("Customer Name : ") + (bookingModelCustomerCustomerFullName);
                 // read ("Email ID : ") + (bookingModel.customer.email)
                 javaLangStringEmailIDBookingModelCustomerEmail = ("Email ID : ") + (bookingModelCustomerEmail);
-                // read ("Destination Location : ") + (bookingModel.destination.destinationAdressName)
-                javaLangStringDestinationLocationBookingModelDestinationDestinationAdressName = ("Destination Location : ") + (bookingModelDestinationDestinationAdressName);
+                // read ("Adress : ") + (bookingModel.destination.destinationAdressName)
+                javaLangStringAdressBookingModelDestinationDestinationAdressName = ("Adress : ") + (bookingModelDestinationDestinationAdressName);
+                if (bookingModelASourceSourceAddress != null) {
+                    // read bookingModel.ASource.sourceAddress.sourceLocation
+                    bookingModelASourceSourceAddressSourceLocation = bookingModelASourceSourceAddress.getSourceLocation();
+                    // read bookingModel.ASource.sourceAddress.sourceAddress
+                    bookingModelASourceSourceAddressSourceAddress = bookingModelASourceSourceAddress.getSourceAddress();
+                }
                 if (bookingModelDestinationDestinationAdress != null) {
+                    // read bookingModel.destination.destinationAdress.destinationLocation
+                    bookingModelDestinationDestinationAdressDestinationLocation = bookingModelDestinationDestinationAdress.getDestinationLocation();
                     // read bookingModel.destination.destinationAdress.destinationAddress
                     bookingModelDestinationDestinationAdressDestinationAddress = bookingModelDestinationDestinationAdress.getDestinationAddress();
                 }
 
 
+                // read (("Adress : ") + (bookingModel.ASource.sourecAdressName)) + (", ")
+                javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangString = (javaLangStringAdressBookingModelASourceSourecAdressName) + (", ");
+                // read (("Adress : ") + (bookingModel.destination.destinationAdressName)) + (", ")
+                javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangString = (javaLangStringAdressBookingModelDestinationDestinationAdressName) + (", ");
                 // read ("Source Location : ") + (bookingModel.ASource.sourceAddress.sourceLocation)
                 javaLangStringSourceLocationBookingModelASourceSourceAddressSourceLocation = ("Source Location : ") + (bookingModelASourceSourceAddressSourceLocation);
-                // read ("Adress : ") + (bookingModel.ASource.sourceAddress.sourceAddress)
-                javaLangStringAdressBookingModelASourceSourceAddressSourceAddress = ("Adress : ") + (bookingModelASourceSourceAddressSourceAddress);
-                // read ("Adress : ") + (bookingModel.destination.destinationAdress.destinationAddress)
-                javaLangStringAdressBookingModelDestinationDestinationAdressDestinationAddress = ("Adress : ") + (bookingModelDestinationDestinationAdressDestinationAddress);
+                // read ("Destination Location : ") + (bookingModel.destination.destinationAdress.destinationLocation)
+                javaLangStringDestinationLocationBookingModelDestinationDestinationAdressDestinationLocation = ("Destination Location : ") + (bookingModelDestinationDestinationAdressDestinationLocation);
+
+
+                // read ((("Adress : ") + (bookingModel.ASource.sourecAdressName)) + (", ")) + (bookingModel.ASource.sourceAddress.sourceAddress)
+                javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangStringBookingModelASourceSourceAddressSourceAddress = (javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangString) + (bookingModelASourceSourceAddressSourceAddress);
+                // read ((("Adress : ") + (bookingModel.destination.destinationAdressName)) + (", ")) + (bookingModel.destination.destinationAdress.destinationAddress)
+                javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangStringBookingModelDestinationDestinationAdressDestinationAddress = (javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangString) + (bookingModelDestinationDestinationAdressDestinationAddress);
         }
         // batch finished
         if ((dirtyFlags & 0x3L) != 0) {
@@ -229,12 +255,12 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.bookingStatus, javaLangStringStatusBookingModelStatus);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.bookingTime, javaLangStringBookingTimeBookingModelBookingTime);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.customeName, javaLangStringCustomerNameBookingModelCustomerCustomerFullName);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.destinationAddress, javaLangStringAdressBookingModelDestinationDestinationAdressDestinationAddress);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.destinationLocation, javaLangStringDestinationLocationBookingModelDestinationDestinationAdressName);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.destinationAddress, javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangStringBookingModelDestinationDestinationAdressDestinationAddress);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.destinationLocation, javaLangStringDestinationLocationBookingModelDestinationDestinationAdressDestinationLocation);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.email, javaLangStringEmailIDBookingModelCustomerEmail);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mobNo, javaLangStringMobileNoBookingModelCustomerMobile);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.pickUpTime, javaLangStringPickupTimeBookingModelPickupTime);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.sourceAddressName, javaLangStringAdressBookingModelASourceSourceAddressSourceAddress);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.sourceAddressName, javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangStringBookingModelASourceSourceAddressSourceAddress);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.sourceLocation, javaLangStringSourceLocationBookingModelASourceSourceAddressSourceLocation);
         }
         if ((dirtyFlags & 0x2L) != 0) {

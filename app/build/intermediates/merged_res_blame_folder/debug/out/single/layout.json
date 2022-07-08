@@ -12,15 +12,19 @@
         "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_booking_details.xml"
     },
     {
+        "merged": "com.example.view.app-mergeDebugResources-29:/layout/test.xml",
+        "source": "com.example.view.app-main-32:/layout/test.xml"
+    },
+    {
         "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-29:\\layout\\activity_splash.xml",
         "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-29:\\layout\\fragment_maps.xml",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_maps.xml"
+        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-29:\\layout\\test.xml",
+        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\test.xml"
     },
     {
-        "merged": "com.example.view.app-mergeDebugResources-29:/layout/fragment_booking_details.xml",
-        "source": "com.example.view.app-main-32:/layout/fragment_booking_details.xml"
+        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-mergeDebugResources-29:\\layout\\fragment_maps.xml",
+        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_maps.xml"
     }
 ]

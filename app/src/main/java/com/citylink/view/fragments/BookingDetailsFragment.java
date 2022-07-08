@@ -38,6 +38,8 @@ public class BookingDetailsFragment extends Fragment implements View.OnClickList
                 boolean set = splashFragment.setVariable(1,bookingModel);
                 Log.i(TAG, "variable set to binding calss " + set);
             }else {
+                view.findViewById(R.id.home_scroll_view).setVisibility(View.GONE);
+                view.findViewById(R.id.noData).setVisibility(View.VISIBLE);
                 showDialog();
             }
         });
@@ -63,6 +65,7 @@ public class BookingDetailsFragment extends Fragment implements View.OnClickList
 
   private void showDialog(){
         AlertDialog.Builder builder = new android.app.AlertDialog.Builder(getActivity());
+        builder.setTitle(getString(R.string.city_link_title));
         builder.setMessage(this.getResources().getString(R.string.unable_fetch_data))
                 .setCancelable(false)
                 .setNegativeButton(getResources().getString(R.string.ok), (dialog, id) -> {

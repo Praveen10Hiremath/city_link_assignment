@@ -24,6 +24,7 @@
     <string name="location_pin">locationPin</string>
     <string name="map">Map</string>
     <string name="mobile_no">Mobile No : </string>
+    <string name="no_data">No data available</string>
     <string name="ok">OK</string>
     <string name="pikup_time">Pickup Time : </string>
     <string name="source_address">Source Address</string>
