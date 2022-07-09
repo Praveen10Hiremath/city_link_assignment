@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <string name="ASource">Source : </string>
     <string name="address">Adress : </string>
-    <string name="app_name">City Link...</string>
+    <string name="app_name">City Link</string>
     <string name="bookig_id">Booking ID : </string>
     <string name="bookig_time">Booking Time : </string>
     <string name="bookind_details">Booking Details</string>

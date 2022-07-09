@@ -90,7 +90,7 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.bookingModel == variableId) {
-            setBookingModel((com.citylink.model.BookingModel) variable);
+            setBookingModel((com.citylink.model.entity.BookingModel) variable);
         }
         else {
             variableSet = false;
@@ -98,7 +98,7 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
             return variableSet;
     }
 
-    public void setBookingModel(@Nullable com.citylink.model.BookingModel BookingModel) {
+    public void setBookingModel(@Nullable com.citylink.model.entity.BookingModel BookingModel) {
         this.mBookingModel = BookingModel;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -128,29 +128,29 @@ public class FragmentBookingDetailsBindingImpl extends FragmentBookingDetailsBin
         java.lang.String javaLangStringMobileNoBookingModelCustomerMobile = null;
         java.lang.String javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangString = null;
         java.lang.String bookingModelCustomerCustomerFullName = null;
-        com.citylink.model.DestinationAdress bookingModelDestinationDestinationAdress = null;
+        com.citylink.model.entity.DestinationAdress bookingModelDestinationDestinationAdress = null;
         java.lang.String javaLangStringDestinationLocationBookingModelDestinationDestinationAdressDestinationLocation = null;
         java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressName = null;
         java.lang.String bookingModelBookingId = null;
         java.lang.String javaLangStringBookingIDBookingModelBookingId = null;
-        com.citylink.model.ASource bookingModelASource = null;
-        com.citylink.model.BookingModel bookingModel = mBookingModel;
+        com.citylink.model.entity.ASource bookingModelASource = null;
+        com.citylink.model.entity.BookingModel bookingModel = mBookingModel;
         java.lang.String bookingModelBookingTime = null;
         java.lang.String bookingModelPickupTime = null;
         java.lang.String bookingModelASourceSourceAddressSourceLocation = null;
         java.lang.String javaLangStringAdressBookingModelASourceSourecAdressNameJavaLangStringBookingModelASourceSourceAddressSourceAddress = null;
         java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangStringBookingModelDestinationDestinationAdressDestinationAddress = null;
-        com.citylink.model.Customer bookingModelCustomer = null;
+        com.citylink.model.entity.Customer bookingModelCustomer = null;
         java.lang.String javaLangStringEmailIDBookingModelCustomerEmail = null;
         java.lang.String javaLangStringAdressBookingModelASourceSourecAdressName = null;
         java.lang.String bookingModelCustomerEmail = null;
         java.lang.String javaLangStringAdressBookingModelDestinationDestinationAdressNameJavaLangString = null;
         java.lang.String bookingModelDestinationDestinationAdressName = null;
-        com.citylink.model.Address bookingModelASourceSourceAddress = null;
+        com.citylink.model.entity.Address bookingModelASourceSourceAddress = null;
         java.lang.String javaLangStringSourceLocationBookingModelASourceSourceAddressSourceLocation = null;
         java.lang.String bookingModelASourceSourceAddressSourceAddress = null;
         java.lang.String javaLangStringPickupTimeBookingModelPickupTime = null;
-        com.citylink.model.Destination bookingModelDestination = null;
+        com.citylink.model.entity.Destination bookingModelDestination = null;
         java.lang.String javaLangStringCustomerNameBookingModelCustomerCustomerFullName = null;
         java.lang.String javaLangStringBookingTimeBookingModelBookingTime = null;
         java.lang.String bookingModelDestinationDestinationAdressDestinationAddress = null;

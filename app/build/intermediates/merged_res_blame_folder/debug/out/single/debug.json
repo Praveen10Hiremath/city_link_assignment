@@ -1,106 +1,90 @@
 [
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.view.app-merged_res-30:/layout_fragment_booking_details.xml.flat",
+        "source": "com.example.view.app-main-32:/layout/fragment_booking_details.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\layout_fragment_maps_view.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_maps_view.xml"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\layout_test.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\test.xml"
+        "merged": "com.example.view.app-merged_res-30:/drawable_location_pin.png.flat",
+        "source": "com.example.view.app-main-32:/drawable/location_pin.png"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.view.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\drawable_custom_background.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\drawable\\custom_background.xml"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\drawable_location_pin.png.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\drawable\\location_pin.png"
+        "merged": "com.example.view.app-merged_res-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.view.app-main-32:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\activity_splash.xml"
+        "merged": "com.example.view.app-merged_res-30:/drawable_custom_background.xml.flat",
+        "source": "com.example.view.app-main-32:/drawable/custom_background.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\layout_fragment_maps.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_maps.xml"
+        "merged": "com.example.view.app-merged_res-30:/layout_activity_splash.xml.flat",
+        "source": "com.example.view.app-main-32:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\drawable_background_gradient.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\drawable\\background_gradient.xml"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.view.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-pngs-25:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.view.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.view.app-main-32:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.view.app-merged_res-30:/xml_backup_rules.xml.flat",
+        "source": "com.example.view.app-main-32:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.view.app-merged_res-30:/drawable_background_gradient.xml.flat",
+        "source": "com.example.view.app-main-32:/drawable/background_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.view.app-merged_res-30:/drawable_city_link.png.flat",
+        "source": "com.example.view.app-main-32:/drawable/city_link.png"
     },
     {
-        "merged": "com.example.view.app-merged_res-30:/layout_test.xml.flat",
-        "source": "com.example.view.app-main-32:/layout/test.xml"
+        "merged": "com.example.view.app-merged_res-30:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.view.app-main-32:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\layout_fragment_booking_details.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_booking_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\layout_fragment_map_view.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\layout\\fragment_map_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\GSPLK-LPA409\\.gradle\\daemon\\7.3.3\\com.example.view.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.view.app-merged_res-30:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.view.app-pngs-25:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     }
 ]

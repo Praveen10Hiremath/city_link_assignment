@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 meta-data#com.google.android.geo.API_KEY
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:33:9-35:47
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:21:9-23:47
 	android:value
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:23:13-44
 	android:name
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:34:13-58
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:22:13-58
 manifest
-ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\3d113e509f9ee956dc7c32d99e7172be\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\f091fd38b966c878a7827ff5b7c9acf7\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\ca68a3f32b0e9aea13ceb8d3a5f9310f\transformed\viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
@@ -67,22 +67,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\GSPLK-LPA409\.gr
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\9a5f64fee55a75eef8abac8f55f651b0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\d634b82edb74f2c5eb6cb007849867a9\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\91a9888e3e5fe3d4e2f13b8056c1978c\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:4:5-31
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:2:11-69
@@ -103,7 +103,7 @@ MERGED from [com.google.android.gms:play-services-analytics-impl:18.0.1] C:\User
 	android:name
 		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:8:22-64
 application
-ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:11:5-46:19
+ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:11:5-34:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\3d2c24c05715ce065c68b93a38fc5324\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\3d2c24c05715ce065c68b93a38fc5324\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\GSPLK-LPA409\.gradle\caches\transforms-3\aca5e47ff6211c87d4e23baae2577c76\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -156,22 +156,22 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\GSPLK-LPA409\.grad
 		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:19:9-56
 	android:dataExtractionRules
 		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:13:9-65
-activity#com.citylink.view.SpashActivity
-ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:37:9-45:20
+activity#com.citylink.view.activity.SpashActivity
+ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:exported
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:38:13-59
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:26:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:40:13-44:29
+ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:41:17-69
+ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:43:17-77
+ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:43:27-74
+		ADDED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml:31:27-74
 uses-sdk
 INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\CITY LINK PROJECT\app\src\main\AndroidManifest.xml

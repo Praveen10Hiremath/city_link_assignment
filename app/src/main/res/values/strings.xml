@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">City Link...</string>
+    <string name="app_name">City Link</string>
     <string name="well_come">"Well come to city link..."</string>
     <string name="customer_details">Customer Details</string>
     <string name="bookind_details">Booking Details</string>

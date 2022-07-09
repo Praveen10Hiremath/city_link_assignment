@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.citylink.model.BookingModel;
+import com.citylink.model.entity.BookingModel;
 import com.example.view.R;
 import java.lang.Deprecated;
 import java.lang.Object;

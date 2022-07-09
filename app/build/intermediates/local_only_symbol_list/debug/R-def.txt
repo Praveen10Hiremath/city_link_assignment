@@ -8,6 +8,7 @@ color teal_200
 color teal_700
 color white
 drawable background_gradient
+drawable city_link
 drawable custom_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -26,14 +27,12 @@ id mainView
 id mobNo
 id noData
 id pickUpTime
-id simpleProgressBar
 id sourceAddress
 id sourceAddressName
 id sourceAddressPin
 id sourceLocation
 layout activity_splash
 layout fragment_booking_details
-layout test
 mipmap ic_launcher
 mipmap ic_launcher_round
 string ASource
